@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<c3p0-config>
+    <default-config>
+        <property name="jdbcUrl">jdbc:mysql://10.21.6.18:3306/OnlineShoppingSystem?useUnicode=true&amp;characterEncoding=UTF-8&amp;useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC</property>
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property name="user">oss</property>
+        <property name="password">onlinss</property>
+        <property name="acquireIncrement">3</property>
+        <property name="initialPoolSize">10</property>
+        <property name="minPoolSize">2</property>
+        <property name="maxPoolSize">15</property>
+    </default-config>
+</c3p0-config>
